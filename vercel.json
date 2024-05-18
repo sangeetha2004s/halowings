@@ -1,9 +1,9 @@
-
 {
   "version": 2,
-  "public": true,
-  "rewrites": [
-    { "source": "/", "destination": "/h1.html" }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
   ]
 }
-  
