@@ -1,6 +1,8 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/", "destination": "/h1.html" }
+    { "source": "/h1.html", "destination": "/main/h1.html" },
+    { "source": "/styles.css", "destination": "/main/styles.css" },
+    { "source": "/scroll.js", "destination": "/main/scroll.js" }
   ]
 }
