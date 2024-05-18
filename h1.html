@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Form</title>
+    <title>Halowings</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Contact Us</h2>
-    <form action="/submit-form" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-        
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        
-        <input type="submit" value="Submit">
-    </form>
+    <div id="home" class="page">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <!-- Your logo here -->
+                    <img src="logo.png" alt="Halowings Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#theme">Theme</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="register-btn">Register</a>
+            </div>
+        </header>
+
+        <div class="hero">
+            <!-- Background image will be set here -->
+            <h1 class="event-name">Halowings</h1>
+        </div>
+
+        <section id="sponsors">
+            <div class="container">
+                <h2>Our Sponsors</h2>
+                <p>Insert information about your sponsors here...</p>
+            </div>
+        </section>
+
+        <section id="race-info">
+            <div class="container">
+                <h2>Race Info</h2>
+                <p>Insert race information here...</p>
+            </div>
+        </section>
+
+        <section id="social-media">
+            <div class="container">
+                <h2>Follow Us</h2>
+                <p>Insert social media profiles here...</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Other sections (About, Gallery, Theme, Contact) go here -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Halowings. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scroll.js"></script>
 </body>
 </html>
